@@ -5,6 +5,7 @@ import io.swagger.v3.oas.annotations.info.Info;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
 @OpenAPIDefinition(
     info = @Info(
@@ -17,11 +18,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 )
 public class QuantityMeasurementApplication {
 
-    /**
-     * Bootstraps the Spring Boot application.
-     *
-     * @param args command-line arguments passed to the application
-     */
+
     public static void main(String[] args) {
         SpringApplication.run(QuantityMeasurementApplication.class, args);
     }
